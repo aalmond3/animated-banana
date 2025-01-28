@@ -1,16 +1,28 @@
-/* Diagnostic Styling */
-* {
-  outline: 2px dotted gray;
-} 
-
-/* temp background color */
-body {
-    background: lightgray;
-}
+svg{
+  transform: rotate(50deg);
+  transition: 5s ease-in-out;
+  animation: bounce 2s infinite;
   
-/* vertical and horizontal centering */
-body {
-  display: grid;
-  place-content: center;
-  height: 100vh;
+  
+}
+path {
+  stroke: brown;
+  fill: lightyellow;
+  
+ animation-name: rubberBand;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+  }
+
+@keyframes rubberBand {
+  0% {
+    transform: scale(.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.5);
+  }
 }
