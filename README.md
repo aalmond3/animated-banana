@@ -13,8 +13,8 @@
 * Use `animation` property to apply animations to SVG elements
 
 ## Citations
-* Icons from [Lucide](https://lucide.dev/)
-* [Animate CSS](https://daneden.github.io/animate.css/)
+* Icons from [Lucide](https://lucide.dev/icons/banana)
+* [Animate CSS](https://animate.style/)
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 
 
